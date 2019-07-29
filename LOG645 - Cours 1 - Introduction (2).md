@@ -1,7 +1,7 @@
 ---
 title: LOG645 - Cours 1 - Introduction
 created: '2019-06-08T18:34:47.317Z'
-modified: '2019-06-08T21:33:05.500Z'
+modified: '2019-06-13T19:44:45.744Z'
 tags: [LOG645, LOG645-1]
 ---
 
@@ -9,8 +9,8 @@ tags: [LOG645, LOG645-1]
 
 ## Différents types de parallélisme
 1. De données
-  * Présent lrosque des tâches indépendantes applique la même opération sur différent éléments d'un ensemble de données
-1. De tâches
+  * Présent lorsque des tâches indépendantes appliquent la même opération sur différent éléments d'un ensemble de données
+1. De tâches (fonctions)
   * Présent lorsque des tâches indépendantes appliquent des opérations différentes sur des données différentes
 1. En pipeline
   * Divier un algorithme séquentiel en phase

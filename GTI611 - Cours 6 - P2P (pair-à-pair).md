@@ -1,7 +1,7 @@
 ---
 title: GTI611 - Cours 6 - P2P (pair-à-pair)
 created: '2019-06-08T18:33:17.985Z'
-modified: '2019-06-08T20:33:28.720Z'
+modified: '2019-06-12T03:38:31.964Z'
 tags: [GTI611, GTI611-1]
 ---
 
@@ -82,7 +82,7 @@ Données placées à des endroits spécifiques. Permet de rechercher des donnée
 * Viceroy
 
 ## Plateforme JXTA
-Permet de placer des éléments l'un à côté de l'autre. Le but de JXTA est de standardiser la façon que les parts découvrent les autres pairs, leur manière de communiquer entre eux et de mieux comprendre les ressources de chacun.
+Permet de placer des éléments l'un à côté de l'autre. Le but de JXTA est de standardiser la façon que les pairs découvrent les autres pairs, leur manière de communiquer entre eux et de mieux comprendre les ressources de chacun.
 
 3 types de pairs
 1. Micro-pair
@@ -90,11 +90,11 @@ Permet de placer des éléments l'un à côté de l'autre. Le but de JXTA est de
 1. Pair simple
   * Meme chose que Micro-pair mais peut annoncer les autres pair. Elle ne transmet pas la requête de découvete à un autre pair par contre.
 1. Super-Pair
-  1. Pair Rendez-vous
-    - Pair simlpemais qui peut aider les autres pais à découvrir les resources.
-    -  Devrit être en mesure de garder en cache un grand nombre d'annonces.
-  1. Pair relay
-    - Permet d'acheminer les messages vers les autres pairs dans un réseau physique.
-  1. Pair proxy
-    -  Utilisé par les micro-pairs. Il stocke les annonces et traite les messages provenant des micro-pairs.
+  * Pair Rendez-vous
+      * Pair simple mais qui peut aider les autres pais à découvrir les resources.
+      * Devrit être en mesure de garder en cache un grand nombre d'annonces.
+  * Pair relay
+      * Permet d'acheminer les messages vers les autres pairs dans un réseau physique.
+  * Pair proxy
+      *  Utilisé par les micro-pairs. Il stocke les annonces et traite les messages provenant des micro-pairs.
 

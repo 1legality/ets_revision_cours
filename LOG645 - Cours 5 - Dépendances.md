@@ -1,7 +1,7 @@
 ---
 title: LOG645 - Cours 5 - Dépendances
 created: '2019-06-08T18:38:27.000Z'
-modified: '2019-06-08T21:04:15.587Z'
+modified: '2019-06-09T17:57:01.400Z'
 tags: [LOG645, LOG645-1]
 ---
 
@@ -9,8 +9,13 @@ tags: [LOG645, LOG645-1]
 
 ## 4 manières de modifier un nid de boucle
 1. Échange
-1. <span style="color:red">?</span>
-1. <span style="color:red">?</span>
+  1. Changer l'ordre des boucles pour enlever des dépendances
+1. Fusion
+  1. Joindre des boucles ensemble pour réduire le coût de la gestion des boucles séquentielles ou parallèles.
+1. Distribution
+  1. Opération inverse de la fusion
+  1. Utilisée pour créer des nids de boucles parfait
+  1. Ou pour réduire le nombre d'instruction
 1. Torsion 
 
 ## Les types de dépendances

@@ -1,11 +1,16 @@
 ---
 title: GTI611 - Cours 4 - Routage
 created: '2019-06-08T18:29:37.371Z'
-modified: '2019-06-08T18:31:37.775Z'
+modified: '2019-06-09T15:55:47.094Z'
 tags: [GTI611, GTI611-1]
 ---
 
 # GTI611 - Cours 4 - Routage
+
+## Routage Interne
+2 types de routages à l'interne : *rip* et *OSPF*.
+
+Le but de faire du routage à l'interne est de trouver le meilleur chemin à travers lequel les paquets seront acheminés.
 
 ## RIP
 Chaque routeur connait sont voisin seulement. Il existe seulement deux types de requêtes en RIP.
